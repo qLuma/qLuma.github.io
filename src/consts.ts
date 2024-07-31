@@ -15,7 +15,7 @@ export const HOME: Metadata = {
 
 export const BLOG: Metadata = {
   TITLE: "Blog",
-  DESCRIPTION: "A collection of articles on topics I am passionate about.",
+  DESCRIPTION: "A collection of challenges I created or I find interesting.",
 };
 
 export const WORK: Metadata = {
@@ -25,7 +25,7 @@ export const WORK: Metadata = {
 
 export const CERTIFICATIONS: Metadata = {
   TITLE: "Certifications",
-  DESCRIPTION: "A collection of my projects, with links to repositories and demos.",
+  DESCRIPTION: "A collection of my cyber security certifications.",
 };
 
 export const SOCIALS: Socials = [
