@@ -5,6 +5,5 @@ import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
   site: "https://lumablog.com",
-  base: "/qLuma.github.io",
   integrations: [mdx(), sitemap(), tailwind()],
 });
