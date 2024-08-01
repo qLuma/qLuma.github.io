@@ -260,3 +260,5 @@ And we get a shell:
 ![](./shell.png)
 
 Thank you for reading, I hope you found the challenge interesting.
+
+If you want to try it, you can find an archive containing the Dockerfile, source code, exploit, and binary [here](/challs/lumap.zip)
