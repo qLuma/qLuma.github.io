@@ -1,6 +1,6 @@
 ---
 title: "Lumap official writeup"
-description: "Lumap is a pwn challenge I created for the DefCamp finals 2023."
+description: "Lumap is a pwn challenge I created for DefCamp finals 2023."
 date: "Nov 23 2023"
 ---
 
